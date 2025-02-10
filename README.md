@@ -1,7 +1,14 @@
-# Renesas Winning Combination Search System
+# Multimodal Circuit Design Search System using LLM
 
 ## Overview
 This project is designed to crawl and index all available winning combination designs from Renesas Electronics. It integrates a search and query system built using Streamlit, allowing users to identify required designs and interact with the design descriptions via chat. The system also indexes design diagrams and displays them wherever relevant to the answers.
+
+### Problem Statement
+Many engineers and developers face challenges when working with circuit designs or choosing the right Renesas products for their specific use cases. This system helps users in two primary ways:
+1. **Product Understanding:** If a user has a specific product in mind and wants to explore its potential applications, they can use this system to retrieve relevant Renesas solutions.
+2. **Circuit Troubleshooting:** If a user is working on a circuit diagram and is unsure about a component or its potential use, the system helps identify relevant Renesas products and guides them through its applications.
+
+The system enables users to search using both text and images, making it an intelligent assistant for engineers and hardware developers.
 
 ## Project Structure
 ```
@@ -103,6 +110,7 @@ To set up and run the project, follow these steps:
 - The frontend provides an interface for text, image, and hybrid search.
 - Users can query relevant designs and interact with them via chat.
 - Indexed design diagrams are shown in relevant search results.
+- Engineers can search for solutions based on a product name or upload a circuit diagram to identify relevant components.
 
 ## Future Enhancements
 - Implement real-time updates for newly added Renesas designs.
