@@ -1,4 +1,4 @@
-# Multimodal Circuit Design Search System using LLM and RAG
+# Multimodal Search System using LLM and RAG
 
 ## Overview
 This project is designed to crawl and index all available winning combination designs from Renesas Electronics. It integrates a search and query system built using Streamlit, allowing users to identify required designs and interact with the design descriptions via chat. The system also indexes design diagrams and displays them wherever relevant to the answers.
